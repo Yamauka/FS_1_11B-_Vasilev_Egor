@@ -140,20 +140,20 @@
 \end{table}
 
 \textbf{Решение:}
-$$a_{n}=\dfrac{4n-1}{2n+1}; \; c = 2$$ 
-Найдём лимит $a_{n}$:
-$$\lim\limits_{x\rightarrow\infty} a_{n}= 2 = c;$$
+$$a_{n}=\dfrac{4n-1}{2n+1}; \; c = 2.$$ 
+Найдём предел $a_{n}$:
+$$\lim\limits_{x\rightarrow\infty} a_{n}= 2 = c.$$
 Рассмотрим  $|a_{n}-c|<\eps$:
-$$\biggl |\dfrac{4n-1}{2n+1} - 2  \biggr |<\eps;$$
-$$\biggl |\dfrac{4n-1-4n-2}{2n+1} \biggr | <\eps;$$
-$$\dfrac{3}{2n+1} < \eps;$$
-$$n > \dfrac{3-\eps}{2\eps};$$
+$$\biggl |\dfrac{4n-1}{2n+1} - 2  \biggr |<\eps,$$
+$$\biggl |\dfrac{4n-1-4n-2}{2n+1} \biggr | <\eps,$$
+$$\dfrac{3}{2n+1} < \eps,$$
+$$n > \dfrac{3-\eps}{2\eps}.$$
 При $\eps = 0,1$ получим:
-$$ n > \dfrac{3-0,1}{2*0,1} \Leftrightarrow n > 14,5$$
+$$ n > \dfrac{3-0,1}{2*0,1} \Leftrightarrow n > 14,5.$$
 При $\eps = 0,01$ получим:
-$$ n > \dfrac{3-0,01}{2*0,01} \Leftrightarrow n > 149,5$$
+$$ n > \dfrac{3-0,01}{2*0,01} \Leftrightarrow n > 149,5.$$
 При $\eps = 0,001$ получим:
-$$ n > \dfrac{3-0,001}{2*0,001} \Leftrightarrow n > 1499,5$$
+$$ n > \dfrac{3-0,001}{2*0,001} \Leftrightarrow n > 1499,5.$$
 Заполним таблицу:
 \begin{table}[h]
     \centering
@@ -183,7 +183,7 @@ $$ n > \dfrac{3-0,001}{2*0,001} \Leftrightarrow n > 1499,5$$
          \hline
          в & $\lim\limits_{x\rightarrow 2} \dfrac{\sqrt[3]{4x}-2}{\sqrt{2+x}-\sqrt{2x}}$\\
          \hline
-         г & $\lim\limits_{x\rightarrow 1} (\dfrac{2x-1}{x})^{\dfrac{1}{\sqrt[3]{x}-1}}  $\\
+         г & $\lim\limits_{x\rightarrow 1} (\dfrac{2x-1}{x})^{\frac{1}{\sqrt[3]{x}-1}}  $\\
          \hline
          д & $\lim\limits_{x\rightarrow 0} ({\arccos{4x}})^{\lg{\sin^2{x}}}$ \\
          \hline
@@ -192,63 +192,61 @@ $$ n > \dfrac{3-0,001}{2*0,001} \Leftrightarrow n > 1499,5$$
     \end{tabular}
 \end{table}
 
-\textbf{Решение:}
-
+\textbf{Решение:}\\
 а)
-$$\lim\limits_{x\rightarrow 1} \dfrac{x^3+5x^2+3x-9}{x^3+4x^2-4x-1}$$
-Получаем неопределённость: $$\biggl[\dfrac{0}{0}\biggr]$$
+$$\lim\limits_{x\rightarrow 1} \dfrac{x^3+5x^2+3x-9}{x^3+4x^2-4x-1}.$$
+Получаем неопределённость: $$\biggl[\dfrac{0}{0}\biggr].$$
 Разложим на множители:
-$$\lim\limits_{x\rightarrow 1} \dfrac{(x+3)^{2}(x-1)}{(x^2+5x+1)(x-1)} $$
+$$\lim\limits_{x\rightarrow 1} \dfrac{(x+3)^{2}(x-1)}{(x^2+5x+1)(x-1)} .$$
 Сокращаем одинаковые множители:
-$$\lim\limits_{x\rightarrow 1} \dfrac{(x+3)^{2}}{(x^2+5x+1)}=\dfrac{16}{7}$$
+$$\lim\limits_{x\rightarrow 1} \dfrac{(x+3)^{2}}{(x^2+5x+1)}=\dfrac{16}{7}.$$
 б)
-$$\lim\limits_{x\rightarrow\infty} \dfrac{2x\sqrt{x} + \sqrt{1+9x^3}+x}{3x\sqrt{x+10}}$$
-Получаем неопределённость: $$\biggl[\dfrac{0}{0}\biggr]$$
-Делим на $x^{\dfrac{3}{2}}$ верхнюю и нижнюю часть:
-$$\lim\limits_{x\rightarrow\infty} \dfrac{2+\sqrt{\dfrac{1}{x}+9}+\dfrac{1}{\sqrt{x}}}{3\sqrt{1+\dfrac{10}{x}}} = \dfrac{5}{3} $$
+$$\lim\limits_{x\rightarrow\infty} \dfrac{2x\sqrt{x} + \sqrt{1+9x^3}+x}{3x\sqrt{x+10}}.$$
+Получаем неопределённость: $$\biggl[\dfrac{0}{0}\biggr].$$
+Делим на $x^{\frac{3}{2}}$ числитель и знаменатель:
+$$\lim\limits_{x\rightarrow\infty} \dfrac{2+\sqrt{\dfrac{1}{x}+9}+\dfrac{1}{\sqrt{x}}}{3\sqrt{1+\dfrac{10}{x}}} = \dfrac{5}{3}.$$
 в)
-$$\lim\limits_{x\rightarrow 2} \dfrac{\sqrt[3]{4x}-2}{\sqrt{2+x}-\sqrt{2x}}$$
-Получаем неопределённость: $$\biggl[\dfrac{0}{0}\biggr]$$
+$$\lim\limits_{x\rightarrow 2} \dfrac{\sqrt[3]{4x}-2}{\sqrt{2+x}-\sqrt{2x}}.$$
+Получаем неопределённость: $$\biggl[\dfrac{0}{0}\biggr].$$
 Домножим начальное выражение на сопряженные множители:
-$$\lim\limits_{x\rightarrow 2} \dfrac{(4x-8)(\sqrt{2+x}+\sqrt{2x})}{(2-x)(\sqrt[3]{(4x)^{2}}+2\sqrt[3]{4x}+4)} $$
+$$\lim\limits_{x\rightarrow 2} \dfrac{(4x-8)(\sqrt{2+x}+\sqrt{2x})}{(2-x)(\sqrt[3]{(4x)^{2}}+2\sqrt[3]{4x}+4)}. $$
 Сократим множители и вынесем коэффициент за предел:
-$$-4\lim\limits_{x\rightarrow 2} \dfrac{(\sqrt{2+x}+\sqrt{2x})}{(\sqrt[3]{(4x)^{2}}+2\sqrt[3]{4x}+4)} =-\dfrac{4}{3} $$
+$$-4\lim\limits_{x\rightarrow 2} \dfrac{(\sqrt{2+x}+\sqrt{2x})}{(\sqrt[3]{(4x)^{2}}+2\sqrt[3]{4x}+4)} =-\dfrac{4}{3}.$$
 г)
-$$\lim\limits_{x\rightarrow 1} (\frac{2x-1}{x})^{\dfrac{1}{\sqrt[3]{x}-1}}  $$
-Подставляя значение получим:
-$$[ 1^{\infty}]$$
-Используя секретную формулу \textnumero $197$ получим:
-$$e^{\lim\limits_{x\rightarrow 1} (\dfrac{2x-1}{x} - 1)({\dfrac{1}{\sqrt[3]{x}-1}})}$$
+$$\lim\limits_{x\rightarrow 1} (\frac{2x-1}{x})^{\frac{1}{\sqrt[3]{x}-1}}.  $$
+Подставляя значение, получим:
+$$[ 1^{\infty}].$$
+Используя секретную формулу \textnumero $197$, получим:
+$$\exp{\lim\limits_{x\rightarrow 1} (\frac{2x-1}{x} - 1)({\frac{1}{\sqrt[3]{x}-1}})}.$$
 Считаем чему равна степень:
-$$\lim\limits_{x\rightarrow 1} (\dfrac{2x-1}{x} - 1)({\dfrac{1}{\sqrt[3]{x}-1}})$$
-$$\lim\limits_{x\rightarrow 1} (\dfrac{x-1}{x})({\dfrac{1}{\sqrt[3]{x}-1}})$$
+$$\lim\limits_{x\rightarrow 1}\biggl (\dfrac{2x-1}{x} - 1\biggr)\biggl({\dfrac{1}{\sqrt[3]{x}-1}}\biggr),$$
+$$\lim\limits_{x\rightarrow 1} \biggl(\dfrac{x-1}{x}\biggr)\biggl({\dfrac{1}{\sqrt[3]{x}-1}}\biggr).$$
 Умножаем на сопряженное выражение к $\sqrt[3]{x}-1$:
-$$\lim\limits_{x\rightarrow 1} \dfrac{\sqrt[3]{x^{2}} + \sqrt[3]{x}+1}{x}=3$$
+$$\lim\limits_{x\rightarrow 1} \dfrac{\sqrt[3]{x^{2}} + \sqrt[3]{x}+1}{x}=3.$$
 Значит предел начального выражения равен:
-$$e^{3}$$
+$$e^{3}.$$
 д)
-$$\lim\limits_{x\rightarrow 0} ({\arccos{4x}})^{\lg{\sin^2{x}}}$$
-Подставляя значение получим:
-$$[(\dfrac{\pi}{2})^{-\infty}]= 0$$
+$$\lim\limits_{x\rightarrow 0} ({\arccos{4x}})^{\lg{\sin^2{x}}}.$$
+Подставляя значение, получим:
+$$\biggl[\biggl(\dfrac{\pi}{2}\biggr)^{-\infty}\biggr]= 0.$$
 е)
-$$\lim\limits_{x\rightarrow 1} \dfrac{3^{5x-3} - 3^{2x^{2}}}{\tg(\pi x)}$$
-Получаем неопределённость: $$\biggl[\dfrac{0}{0}\biggr]$$
-$$\lim\limits_{x\rightarrow 1} \dfrac{3^{2x^{2}}(3^{5x-3-2x^{2}} - 1)}{{\tg(\pi x)}}$$
-Выполним замену переменных $t = x - 1;\; t \rightarrow 0$ 
-$$\lim\limits_{t\rightarrow 0} \dfrac{3^{2(t+1)^{2}}(3^{t-2t^{2}} - 1)}{{\tg(\pi t + \pi)}}$$
-По формуле поворота для тангенса получим:
-$$\tg(\pi t+ \pi))= \tg(\pi t)$$
+$$\lim\limits_{x\rightarrow 1} \dfrac{3^{5x-3} - 3^{2x^{2}}}{\tg(\pi x)}.$$
+Получаем неопределённость: $$\biggl[\dfrac{0}{0}\biggr].$$
+$$\lim\limits_{x\rightarrow 1} \dfrac{3^{2x^{2}}(3^{5x-3-2x^{2}} - 1)}{{\tg(\pi x)}}.$$
+Выполним замену переменных $t = x - 1;\; t \rightarrow 0$: 
+$$\lim\limits_{t\rightarrow 0} \dfrac{3^{2(t+1)^{2}}(3^{t-2t^{2}} - 1)}{{\tg(\pi t + \pi)}}.$$
+По формуле приведения для тангенса получим:
+$$\tg(\pi t+ \pi)= \tg(\pi t).$$
 Заменим это выражение на эквивалетное при $t \rightarrow 0$:
-$$\tg(\pi t)  \sim \pi t$$
-
+$$\tg(\pi t)  \sim \pi t.$$
 Подставим в знаменатель это выражение:
-$$\lim\limits_{t\rightarrow 0} \dfrac{3^{2(t+1)^{2}}(3^{t-2t^{2}} - 1)}{{\pi t }}$$
+$$\lim\limits_{t\rightarrow 0} \dfrac{3^{2(t+1)^{2}}(3^{t-2t^{2}} - 1)}{{\pi t }}.$$
 Заменим $3^{t-2t^{2}} - 1$ на эквивалентное при $t \rightarrow 0$:
-$$3^{t-2t^{2}} - 1 = t(1-2t)*\ln{3}$$
+$$3^{t-2t^{2}} - 1 = t(1-2t)\ln{3}.$$
 Подставим в числитель это выражение:
-$$\lim\limits_{t\rightarrow 0} \dfrac{3^{2(t+1)^{2}}(t(1-2t)*\ln{3})}{{\pi t }}$$
+$$\lim\limits_{t\rightarrow 0} \dfrac{3^{2(t+1)^{2}}t(1-2t)\ln{3}}{{\pi t }}.$$
 Сократим:
-$$\lim\limits_{t\rightarrow 0} \dfrac{3^{2(t+1)^{2}}((1-2t)*\ln{3})}{{\pi}} = \frac{9\ln{3}}{\pi}$$ \\
+$$\lim\limits_{t\rightarrow 0} \dfrac{3^{2(t+1)^{2}}(1-2t)\ln{3}}{{\pi}} = \frac{9\ln{3}}{\pi}.$$ \\
 Ответ:а) $\dfrac{16}{7}$; б)$\dfrac{5}{3}$; в)$-\dfrac{4}{3}$; г)$e^{3}$; д)$0$;
 е)$\dfrac{9\ln{3}}{\pi}$.
 
@@ -260,33 +258,29 @@ $$\lim\limits_{t\rightarrow 0} \dfrac{3^{2(t+1)^{2}}((1-2t)*\ln{3})}{{\pi}} = \f
 а) Показать, что данные функции $f(x)$ и $g(x)$ являются бесконечно малыми или бесконечно большими
 при указанном стремлении аргумента. б) Для каждой функции $f(x)$ и $g(x)$ записать главную часть
 (эквивалентную ей функцию)  вида $C(x-x_0)^{\alpha}$ при $x\rightarrow x_0$ или $Cx^{\alpha}$
-при $x\rightarrow\infty$, указать их порядки малости (роста). в) Сравнить функции $f(x)$ и $g(x)$ при указанном стремлении.$f(x) = \sqrt[3]{1-{\sqrt[3]{x}}};\; g(x) = 4(x-1)^{2}$
+при $x\rightarrow\infty$, указать их порядки малости (роста). в) Сравнить функции $f(x)$ и $g(x)$ при указанном стремлении.$f(x) = \sqrt[3]{1-{\sqrt[3]{x}}};\; g(x) = 4(x-1)^{2}$.
 
-\textbf{Решение:}
-
+\textbf{Решение:}\\
 а)
-$$\lim\limits_{x\rightarrow 1} f(x) = \lim\limits_{x\rightarrow 1}\sqrt[3]{1-{\sqrt[3]{x}}}=0 $$ 
-Получается f(x) БМ.
-$$\lim\limits_{x\rightarrow 1} g(x) = \lim\limits_{x\rightarrow 1} 4(x-1)^{2} = 0 $$
-Получается g(x) БМ.
-
+$$\lim\limits_{x\rightarrow 1} f(x) = \lim\limits_{x\rightarrow 1}\sqrt[3]{1-{\sqrt[3]{x}}}=0 .$$ 
+Получается $f(x)$ БМ.
+$$\lim\limits_{x\rightarrow 1} g(x) = \lim\limits_{x\rightarrow 1} 4(x-1)^{2} = 0 .$$
+Получается $g(x)$ БМ.\\
 б)
 Нужно привести к виду:
-$$\underset{x \rightarrow 1}{f(x)} = C(x-1)^{p}$$
-$$\underset{x \rightarrow 1}{g(x)} = C(x-1)^{p}$$
-$$f(x) = \sqrt[3]{1-{\sqrt[3]{x}}}$$
+$$\underset{x \rightarrow 1}{f(x)} = C(x-1)^{p},$$
+$$\underset{x \rightarrow 1}{g(x)} = C(x-1)^{p},$$
+$$f(x) = \sqrt[3]{1-{\sqrt[3]{x}}}.$$
 Выполним замену переменных $t = x-1; \; t \rightarrow 0:$
-$$f(x)=\sqrt[3]{1-{\sqrt[3]{t+1}}} \sim -\sqrt[3]{\frac{1}{3} t}$$
+$$f(x)=\sqrt[3]{1-{\sqrt[3]{t+1}}} \sim -\sqrt[3]{\frac{1}{3} t}.$$
 Получим:
-$$f(x)= \sqrt[3]{\frac{1}{3}} (x-1)^{\frac{1}{3}}$$
+$$f(x)= \sqrt[3]{\frac{1}{3}} (x-1)^{\frac{1}{3}}.$$
 $f(x)$ - БМ $\frac{1}{3}$ порядка
 Для $g(x)$:
-$$g(x) = 4(x-1)^{2}$$
-$g(x)$ - БМ $2$ порядка.
-
+$$g(x) = 4(x-1)^{2}.$$
+$g(x)$ - БМ $2$ порядка.\\
 в)
-$$\lim\limits_{x\rightarrow 1} \frac{g(x)}{f(x)} = 0$$ 
-
+$$\lim\limits_{x\rightarrow 1} \frac{g(x)}{f(x)} = 0.$$ 
 Получается $f(x) = o(g(x))$.
 
 \newpage
